@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidemenu__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85vh;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(19, 18, 18, 0.5);
+    width: 10vw;
+    list-style: none;
+    align-items: center;
+    position: fixed;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+.sidemenu__nav li{
+    cursor: pointer;
+}

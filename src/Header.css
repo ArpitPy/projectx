@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.header__logo {
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.header__links {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: 80vw;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  margin-left: 35px;
+}
+.header__signup {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.header__signup:hover{
+  background-color: white;
+  color: black;
+}
