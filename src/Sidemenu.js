@@ -3,7 +3,7 @@ import './Sidemenu.css';
 
 function Sidemenu() {
   return (
-    <div>
+    <div className="sidemenu">
       <ul className="sidemenu__nav">
         <li>Dashboard</li>
         <li>Wars</li>

@@ -1,13 +1,21 @@
+*{
+  text-decoration: none ;
+}
 .header {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  height: max-content;
 }
 .header__logo {
   color: white;
   padding: 15px;
   font-weight: 600;
   font-size: 40px;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 .header__links {
   display: flex;
@@ -20,6 +28,9 @@
   color: white;
   font-size: 18px;
   margin-left: 35px;
+}
+li{
+  text-decoration: none;
 }
 .header__signup {
   font-size: 18px;

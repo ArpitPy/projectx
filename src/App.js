@@ -9,15 +9,13 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
+        <Sidemenu />
         <Switch>
           <Route path="/Contact">
-          <Header />
-            <Sidemenu />
             <Contact />
           </Route>
           <Route path="/">
-            <Header />
-            <Sidemenu />
             <Home />
           </Route>
         </Switch>

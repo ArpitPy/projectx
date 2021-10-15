@@ -9,11 +9,18 @@ function Header() {
       <div className="header">
         <h1 className="header__logo">ProjectX</h1>
         <ul className="header__links">
-          <li>Home</li>
+          <Link to="/" style={{textDecoration: 'none'}}>
+            <li>Home</li>
+          </Link>
           <li>About Me</li>
-          <li>Contact</li>
           <Link to="/Contact">
-          <button type="button" className="header__signup">Sign Up</button></Link>
+            <li>Contact</li>
+          </Link>
+          <Link to="/Contact">
+            <button type="button" className="header__signup">
+              Sign Up
+            </button>
+          </Link>
         </ul>
       </div>
     </div>
